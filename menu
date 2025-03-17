@@ -216,6 +216,14 @@ local Button = PlayerTab:CreateButton({
  
   end,
  })
+
+local Button = PlayerTab:CreateButton({
+    Name = "PatrickHat",
+    Callback = function()
+   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("PatrickHatEvent"):FireServer()
+ 
+  end,
+ })
  
  local PlayerTab = Window:CreateTab("GODMODE & RANK", 4483362458) 
  local Button = PlayerTab:CreateButton({
