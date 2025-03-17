@@ -1,0 +1,248 @@
+--made by Semyon
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "MegMenuw",
+   Icon = 0, 
+   LoadingTitle = "MegMenu",
+   LoadingSubtitle = "Made by Semyon",
+   Theme = "Default", 
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, 
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, 
+      FileName = "Big Hub"
+   },
+
+   Discord = {
+      Enabled = false, 
+      Invite = "noinvitelink", 
+      RememberJoins = true 
+   },
+
+   KeySystem = false, 
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided", 
+      FileName = "Key", 
+      SaveKey = true, 
+      GrabKeyFromSite = false, 
+      Key = {"Hello"} 
+   }
+})
+
+local PlayerTab = Window:CreateTab("Skins", 4483362458) 
+
+local Button = PlayerTab:CreateButton({
+   Name = "BlackSuit",
+   Callback = function()
+   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BlackSuitEvent"):FireServer()
+
+ end,
+})
+
+local Button = PlayerTab:CreateButton({
+   Name = "BlueSuit",
+   Callback = function()
+   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BlueSuitEvent"):FireServer()
+
+ end,
+})
+
+local Button = PlayerTab:CreateButton({
+    Name = "DiamondSuit",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("DiamondSuitEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "GojoSuit",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GojoSuitEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "OrangeSuit",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("OrangeSuitEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "PinkSuit",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("PinkSuitEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "RedSuit",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("RedSuitEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "SilverSuit",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SilverSuitEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "YellowSuit",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("YellowSuitEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "CameraSuit",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("CameraSuitEvent"):FireServer()
+ 
+  end,
+ })
+
+ local PlayerTab = Window:CreateTab("Items", 4483362458) 
+  local Button = PlayerTab:CreateButton({
+    Name = "Medkit",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("MedkitEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "BearTrap",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BearTrapEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "Compass",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("CompassEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "Radio",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("RadioEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "SpeedCoil",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SpeedCoilEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "NightVision",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("NightVisionEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "Camera",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("CameraItemEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+   Name = "Ping",
+   Callback = function()
+   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("pingEvent"):FireServer()
+
+ end,
+})
+
+local Button = PlayerTab:CreateButton({
+   Name = "Watch",
+   Callback = function()
+   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("WatchEvent"):FireServer()
+
+
+ end,
+})
+
+ local PlayerTab = Window:CreateTab("Hats", 4483362458) 
+ local Button = PlayerTab:CreateButton({
+    Name = "GoldFedora",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GoldFedoraEvent"):FireServer()
+ 
+  end,
+ })
+ 
+ local Button = PlayerTab:CreateButton({
+    Name = "RedFedora",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("RedFedoraEvent"):FireServer()
+ 
+  end,
+ })
+
+ local Button = PlayerTab:CreateButton({
+    Name = "Cone",
+    Callback = function()
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ConeEvent"):FireServer()
+ 
+  end,
+ })
+ 
+ local PlayerTab = Window:CreateTab("GODMODE & RANK", 4483362458) 
+ local Button = PlayerTab:CreateButton({
+    Name = "GOD & RANK UP! ( WARKING OF LAG )",
+    Callback = function()
+   
+
+      while true do task.wait()
+         game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("VestEvent"):FireServer() end
+         
+    end,
+ })
+
+
+ local PlayerTab = Window:CreateTab("infinite yield & Gamepass unlocker", 4483362458) 
+
+local Button = PlayerTab:CreateButton({
+   Name = "Load infinite yield",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+ end,
+})
+
+local Button = PlayerTab:CreateButton({
+   Name = "Load Gamepass unlocker",
+   Callback = function()
+      loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/Crazy/main/Crazy'),true))()
+ end,
+})
