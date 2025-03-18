@@ -3,7 +3,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "MegMenuw",
+   Name = "MegMenu",
    Icon = 0, 
    LoadingTitle = "MegMenu",
    LoadingSubtitle = "Made by Semyon",
