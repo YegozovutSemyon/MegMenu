@@ -36,7 +36,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local PlayerTab = Window:CreateTab("Skins", 4483362458) 
+local PlayerTab = Window:CreateTab("Skins", "shirt") 
 
 local Button = PlayerTab:CreateButton({
    Name = "BlackSuit",
@@ -118,7 +118,7 @@ local Button = PlayerTab:CreateButton({
   end,
  })
 
- local PlayerTab = Window:CreateTab("Items", 4483362458) 
+ local PlayerTab = Window:CreateTab("Items", "backpack") 
   local Button = PlayerTab:CreateButton({
     Name = "Medkit",
     Callback = function()
@@ -192,7 +192,7 @@ local Button = PlayerTab:CreateButton({
  end,
 })
 
- local PlayerTab = Window:CreateTab("Hats", 4483362458) 
+ local PlayerTab = Window:CreateTab("Hats", "chef-hat") 
  local Button = PlayerTab:CreateButton({
     Name = "GoldFedora",
     Callback = function()
@@ -225,7 +225,7 @@ local Button = PlayerTab:CreateButton({
   end,
  })
  
- local PlayerTab = Window:CreateTab("GODMODE & RANK", 4483362458) 
+ local PlayerTab = Window:CreateTab("GOD & RANK", "heart-pulse") 
  local Button = PlayerTab:CreateButton({
     Name = "GOD & RANK UP! ( WARKING OF LAG )",
     Callback = function()
@@ -254,3 +254,8 @@ local Button = PlayerTab:CreateButton({
       loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/Crazy/main/Crazy'),true))()
  end,
 })
+
+local PlayerTab = Window:CreateTab("Credits", "square-code")
+
+local Label = PlayerTab:CreateLabel("Semyon", "user-round-cog")
+local Label = PlayerTab:CreateLabel("Rayfield UI", "paint-roller")
