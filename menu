@@ -238,9 +238,9 @@ local Button = PlayerTab:CreateButton({
  })
 
 
- local PlayerTab = Window:CreateTab("infinite Yield & Gamepass Unlocer", "shield-user")  
+ local PlayerTab = Window:CreateTab("infinite Yield & Gamepass Unlocer", "circle-dollar-sign") 
 
-local Button = PlayerTab:CreateButton({
+   local Button = PlayerTab:CreateButton({
    Name = "Load infinite yield",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
