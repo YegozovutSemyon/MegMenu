@@ -238,7 +238,7 @@ local Button = PlayerTab:CreateButton({
  })
 
 
- local PlayerTab = Window:CreateTab("infinite yield & Gamepass unlocker", 4483362458) 
+ local PlayerTab = Window:CreateTab("infinite Yield & Gamepass Unlocer", "shield-user")  
 
 local Button = PlayerTab:CreateButton({
    Name = "Load infinite yield",
